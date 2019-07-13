@@ -1,0 +1,27 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Fotkify App",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Krd/Forkify.git"
+  },
+  "author": "Kordian Pilarski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Krd/Forkify/issues"
+  },
+  "homepage": "https://github.com/The-Krd/Forkify#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
