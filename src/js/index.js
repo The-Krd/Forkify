@@ -1,4 +1,4 @@
 // Global app controller
 import x from './test';
-
-console.log(`Im imported ${x} rfrom other mmmma`);
+const f = 23
+console.log(`Im imported ${x} rfrom other mmmma -------- ${f} is xxxiess`);
