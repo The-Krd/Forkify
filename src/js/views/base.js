@@ -1,9 +1,10 @@
 export const elements ={
     searchInput: document.querySelector('.search__field'),
     searchForm: document.querySelector('.search'),
-    searchResultsList: document.querySelector('.results__list'),
     searchRes: document.querySelector('.results'),
-    searchName: document.querySelectorAll('.results__name'),
+    searchResultsList: document.querySelector('.results__list'),
+    searchResultsPages: document.querySelector('.results__pages'),
+    // searchName: document.querySelectorAll('.results__name'),
 };
 
 export const elementStrings = {
